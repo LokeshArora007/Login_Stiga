@@ -1,0 +1,12 @@
+@import "../../../scss/varibales.scss";
+
+.login-form {
+    padding-top: 98px;
+    padding-bottom: 50px;
+}
+
+@media (max-width: 1060px) {
+    .login-form {
+        color: $white;
+    }
+}

@@ -1,0 +1,371 @@
+@import "varibales.scss";
+
+
+body {
+    font-family     : $font-body !important;
+    font-size       : $font-size-body;
+    color           : $color-text-body;
+    font-weight     : $font-regular;
+    background-color: $white;
+    min-height      : 100%;
+}
+
+button {
+    font-weight: $font-thin;
+}
+
+:focus {
+    outline: 0 !important;
+}
+
+.form-control:focus {
+    color           : #495057;
+    background-color: #fff;
+    border-color    : #80bdff;
+    outline         : 0;
+    box-shadow      : 0 0 0 0.0rem rgba(0, 123, 255, .25);
+}
+
+.form-control:focus {
+    color           : #495057 !important;
+    background-color: #fff !important;
+    border          : 1px solid #ced4da !important;
+    outline         : 0;
+    box-shadow      : 0 0 0 0rem rgba(0, 123, 255, 0.25) !important;
+}
+
+.has-search {
+
+    .form-control {
+        padding-left: 2.375rem;
+    }
+
+    i {
+        position      : absolute;
+        z-index       : 2;
+        display       : block;
+        width         : 2.375rem;
+        height        : 2.375rem;
+        line-height   : 2.375rem;
+        text-align    : center;
+        pointer-events: none;
+        color         : #23272B;
+    }
+}
+
+.has-search .h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: $font-light;
+}
+
+.font-10 {
+    font-size  : 10px;
+    line-height: 18px;
+}
+
+.font-11 {
+    font-size  : 11px !important;
+    line-height: 14px !important;
+}
+
+.font-12 {
+    font-size  : $font-size-small;
+    line-height: 18px;
+}
+
+.font-13 {
+    font-size  : $font-size-medium;
+    line-height: 20px;
+}
+
+.font-14 {
+    font-size  : $font-size-heading-4;
+    line-height: 20px;
+}
+
+.font-16 {
+    font-size  : $font-size-body;
+    line-height: 22px;
+}
+
+.font-18 {
+    font-size  : $font-size-alert;
+    line-height: 24px;
+}
+
+.font-20 {
+    font-size  : $font-size-heading-2;
+    line-height: 26px;
+}
+
+.font-24 {
+    font-size  : $font-size-heading-2;
+    line-height: 30px;
+}
+
+
+.font-26 {
+    font-size  : 26;
+    line-height: 32px;
+}
+
+.font-28 {
+    font-size  : $font-size-heading-1;
+    line-height: 34px;
+}
+
+.font-30 {
+    font-size  : $font-size-heading;
+    line-height: 36px;
+}
+
+.font-50 {
+    font-size  : 50px;
+    line-height: 56px;
+}
+
+
+.font-bold {
+    font-weight: $font-bold;
+}
+
+.font-semibold {
+    font-weight: $font-semibold;
+}
+
+.font-regular {
+    font-weight: $font-regular;
+}
+
+.font-light {
+    font-weight: $font-light;
+}
+
+.font-thin {
+    font-weight: $font-thin;
+}
+
+#wrapper {
+    display: flex;
+}
+
+.btn.focus,
+.btn:focus {
+    outline   : 0;
+    box-shadow: 0 0 0 0.1rem rgba(0, 123, 255, .25);
+}
+
+.btn {
+    background-color: $btn-primary;
+    color           : $white;
+    padding         : .575rem 1rem;
+    border-radius   : 6px;
+}
+
+.btn:hover {
+    background-color: $primary-hover;
+    color           : $white;
+}
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+    padding-left : 1.2rem;
+    padding-right: 1.2rem;
+}
+
+.navbar {
+    position       : relative;
+    display        : flex;
+    flex-wrap      : wrap;
+    align-items    : center;
+    justify-content: space-between;
+    padding        : .5rem 1rem;
+}
+
+.topbar .navbar-search {
+    width: 25rem;
+}
+
+.bg-gradient-primary {
+    background: rgb(40, 112, 216);
+    background: linear-gradient(180deg, rgba(40, 112, 216, 1) 0%, rgba(6, 53, 120, 1) 100%, rgba(6, 53, 120, 1) 100%);
+}
+
+#wrapper #content-wrapper {
+    width           : 100%;
+    overflow-x      : hidden;
+    background-color: $bg-theme;
+}
+
+.border-light {
+    border-color: $border !important;
+}
+
+.bg-alert {
+    background-color: $alert;
+    color           : $white;
+}
+
+.bg-todo {
+    background-color: $warning;
+    color           : $white;
+}
+
+.bg-alert-dark {
+    background-color: $dark;
+    color           : $white;
+}
+
+.bg-blue {
+    background-color: #0E55AA;
+    color           : $white;
+}
+
+.bg-wallet {
+    background-color: #7800C6;
+    color           : $white;
+}
+
+.bg-green {
+    background-color: #61AB1E;
+    color           : $white;
+}
+
+.bg-sky {
+    background-color: #47BCEC;
+    color           : $white;
+}
+
+.light-sky {
+    background-color: $light-sky;
+}
+
+.table-hover tbody tr:hover {
+    color           : #212529;
+    background-color: $secondary;
+}
+
+.badge {
+    padding        : 0.4em .4em !important;
+    font-size      : 12px !important;
+    border-radius  : 1.25rem !important;
+    display        : flex !important;
+    min-width      : 27px;
+    min-height     : 27px;
+    line-height    : 15px;
+    font-weight    : $font-semibold !important;
+    align-items    : center;
+    justify-content: center;
+    text-align     : center;
+}
+
+
+
+
+.mh-60 {
+    min-height: 50px;
+}
+
+.box-shadow {
+    box-shadow   : 0px 1px 3px rgba(63, 63, 68, 0.15), 0px 0px 0px rgba(63, 63, 68, 0.05);
+    border-radius: 4px;
+    border       : 0px !important;
+}
+
+.active {
+    color: $primary !important;
+}
+
+.pt-14 {
+    padding-top: 14px;
+}
+
+
+
+//bootstrap-select
+
+span.sort-title {
+    font-size    : 13px;
+    font-weight  : 700;
+    padding-right: 15px;
+}
+
+.font-secondary {
+    font-family: $font-family-secondary;
+}
+
+
+.primary {
+    color: $primary;
+}
+
+.success {
+    color: $success !important;
+}
+
+.alert {
+    color: $alert !important;
+}
+
+.warning {
+    color: $warning !important;
+}
+
+.danger {
+    color: $danger !important;
+}
+
+.gray-100 {
+    color: $gray-100;
+}
+
+.gray-200 {
+    color: $gray-200;
+}
+
+.gray-300 {
+    color: $gray-300;
+}
+
+.gray-400 {
+    color: $gray-400
+}
+
+.gray-500 {
+    color: $gray-500
+}
+
+.gray-600 {
+    color: $gray-600
+}
+
+.gray-700 {
+    color: $gray-700
+}
+
+.gray-800 {
+    color: $gray-800
+}
+
+.gray-900 {
+    color: $gray-900
+}
+
+.text-blue {
+    color: $primary !important;
+    ;
+}

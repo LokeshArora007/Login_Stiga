@@ -1,0 +1,109 @@
+//Main Pallete Colors
+$primary : #0e55aa;
+$secondary : #f6f9fd;
+$success : #4CA00A;
+$alert : #ec4c47;
+$warning : #f69241;
+$danger : #ff6956;
+$light : #979797;
+$extra-light : #F2F2F2;
+$dark : #6E6E6E;
+$lightGray : #F2F2F2;
+$white :#ffffff;
+$grayBg : #f8f8f8;
+$light1Gray : rgb(223, 222, 222);
+$btn-primary :#0e55aa;
+$btn-secondary :#f5f7fa;
+$btn-light-dark :#f8f8f8;
+$primary-hover :#05346c;
+$color-text-body: #45586B;
+$bg-theme :#fcfdff;
+$border :#E4E7EB;
+$disable-color :#B7B7C9;
+$text-color :#3A3B3F;
+$inactive :#d8d8d8;
+$ink-blue :#042955;
+$sky : #EBF2F9;
+$light-blue : #2255A5;
+$sky-blue : #80bdff;
+$black :#23272B;
+$light-gray-2 :#F7F9FF;
+$yellow :#ECAA16;
+$green :#219807;
+$sky :#47BCEC;
+$light-sky :#F4F6F9;
+$purple : #6C1CBF;
+
+
+//border color
+$gray-100 : #f8f9fc !default;
+$gray-200 : #eaecf4 !default;
+$gray-300 : #dddfeb !default;
+$gray-400 : #d1d3e2 !default;
+$gray-500 : #b7b9cc !default;
+$gray-600 : #858796 !default;
+$gray-700 : #6e707e !default;
+$gray-800 : #5a5c69 !default;
+$gray-900 : #3a3b45 !default;
+
+//Fonts Families
+$font-body: 'Muli',
+sans-serif;
+$font-heading: 'Muli',
+sans-serif;
+$font-printing: 'Muli',
+sans-serif;
+$font-card-title: 'Muli',
+sans-serif;
+$font-family-secondary:'Roboto',
+sans-serif;
+
+//Fonts Sizes
+$font-size-body : 16px;
+$font-size-heading-1: 28px;
+$font-size-heading-2: 20px;
+$font-size-heading-3: 16px;
+$font-size-heading-4: 14px;
+$font-size-heading-5: 12px;
+$font-size-heading-6: 10px;
+$font-size-alert : 18px;
+$font-size-heading :30px;
+//Smallest available font
+$font-size-small : 12px;
+$font-size-medium : 13px;
+
+
+// Fonts Weights
+$font-thin : 200;
+$font-light : 300;
+$font-regular : 400;
+$font-medium : 500;
+$font-semibold: 600;
+$font-bold : 700;
+$font-bolder : 900;
+
+
+// Transitions
+$transition-collapse: height .15s ease !default;
+
+
+// Shadows
+$box-shadow-sm: 0 0.125rem 0.25rem 0 rgba($gray-900, .2) !default;
+$box-shadow : 0 0.15rem 1.75rem 0 rgba($gray-900, .15) !default;
+
+// Borders Radius
+$border-radius: 0.35rem !default;
+$border-color : darken($gray-200, 2%);
+
+
+
+@mixin none-selection {
+    -webkit-user-select: none;
+    /* Safari 3.1+ */
+    -moz-user-select: none;
+    /* Firefox 2+ */
+    -ms-user-select: none;
+    /* IE 10+ */
+    user-select: none;
+    /* Standard syntax */
+}
